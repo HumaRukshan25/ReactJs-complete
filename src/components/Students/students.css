@@ -1,0 +1,10 @@
+.students .header{
+    font-size: 25px;
+    font-weight: bold;
+    color: skyblue;
+    background: linear-gradient(skyblue,white);
+    text-shadow: 2px 2px black;
+    padding: 10px 0px;
+    letter-spacing: 5px;
+     
+}

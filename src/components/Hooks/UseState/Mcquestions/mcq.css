@@ -1,0 +1,11 @@
+.toggleQuesAns button{
+    width: 60%;
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(skyblue,white);
+    border-radius: 10px ;
+}
+.toggleQuesAns .que{
+    display: flex;
+    justify-content: space-between;
+}

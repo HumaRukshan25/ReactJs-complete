@@ -1,0 +1,26 @@
+export let students=[
+    {
+        fnm:"Dinga",
+        lnm:"raja",
+        place:"Bangalore",
+        yop:2023,
+        deg:"B.E",
+        stream:"CSE"
+    },
+    {
+        fnm:"Dingi",
+        lnm:"rani",
+        place:"Bangalore",
+        yop:2023,
+        deg:"B.E",
+        stream:"CSE"
+    },
+    {
+        fnm:"Dingu",
+        lnm:"raju",
+        place:"Bangalore",
+        yop:2024,
+        deg:"B-Tech",
+        stream:"CSE"
+    }
+]

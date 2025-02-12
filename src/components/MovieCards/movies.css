@@ -1,0 +1,35 @@
+.moviecards .header{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    background: linear-gradient(skyblue,white);
+    font-weight:bolder;
+    font-style: italic;
+}
+.m-card img{
+    height: 30vh;
+    transition: all 3s;
+    border-radius: 10px;
+
+}
+.m-card img:hover{
+    transform: scale(1.0);
+    
+
+}
+.m-card .container{
+    width: 25vw;
+    margin: 10px;
+    height: 100%;
+    border: solid 1px black;
+    background: linear-gradient(skyblue,white);
+
+}
+.moviecards .card {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+  
+    
+   
+}

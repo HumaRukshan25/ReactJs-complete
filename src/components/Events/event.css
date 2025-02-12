@@ -1,0 +1,27 @@
+.events button{
+    width: 30%;
+    height:6vh;
+    margin:10px auto;
+    border:solid 2px blue;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.events .container{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(blue,white);
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+.events .container button{
+  width: 15vw;
+  margin: 0px;
+
+}

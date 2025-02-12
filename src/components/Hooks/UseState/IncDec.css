@@ -1,0 +1,85 @@
+.inc-dec {
+  border: solid 3px skyblue;
+  height: 20vh;
+  width: 50vh;
+  padding: 10px;
+  box-shadow: inset 1px 1px 10px skyblue;
+  border-radius: 10px;
+  background-image: linear-gradient(to top left, skyblue 50%, white 50%);
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.inc-dec button {
+  width: 20vh;
+  height: 6vh;
+  border: solid 2px black;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.inc-dec .notification {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.inc-dec .incdec {
+  margin-top: 5px;
+}
+/* button increment */
+.inc-dec .incre{
+    border: solid 2px red;
+    font-weight: bold;
+    font-size: 10px;
+    
+   
+}
+.inc-dec .incre:hover{
+    box-shadow: inset 1px 1px 10px red;
+    background-color:red;
+    color: white;
+
+}
+.inc-dec .incre:active{
+    transform: scale(0.9);
+}
+
+/* minus button */
+.inc-dec .decre{
+    border: solid 2px green;
+    font-weight: bold;
+    font-size: 10px;
+    
+   
+}
+.inc-dec .decre:hover{
+    box-shadow: inset 1px 1px 10px green;
+    background-color:green;
+    color: white;
+
+}
+.inc-dec .decre:active{
+    transform: scale(0.9);
+}
+
+
+/* button printname */
+.changeContent .printname{
+    border: solid 2px blue;
+    font-weight: bold;
+    font-size: 10px;
+    
+   
+}
+.changeContent .printname:hover{
+    box-shadow: inset 1px 1px 10px blue;
+    background-color: blue;
+    color: white;
+
+}
+.changeContent .printname:active{
+    transform: scale(0.9);
+}
+

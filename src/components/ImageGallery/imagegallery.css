@@ -1,0 +1,21 @@
+.imgheader{
+    height: 10vh;
+    background: linear-gradient(teal,white);
+    color: white;
+    text-shadow: 10px 5px gray;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px auto;
+   
+}
+.img1 img{
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+.img1 img:hover{
+    transform:scale(0.9) rotate(5deg);
+   
+}

@@ -1,0 +1,257 @@
+.projects {
+  display: flex;
+}
+
+.p-navbar  {
+  border: none;
+  height: 150vh;
+
+  width: 20vw;
+  background: linear-gradient(to right, teal,white);
+}
+.p-navbar .header {
+  font-size: 25px;
+  padding: 5vh 0px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px teal;
+  text-decoration: underline 5px;
+}
+.p-navbar ul {
+  line-height: 10vh;
+  /* margin-left: 4vw; */
+}
+.p-navbar li {
+  text-align: start;
+  /* margin-left: 4vw; */
+  list-style: none;
+}
+
+.p-navbar a {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.project-area {
+  height: 100vh;
+  /* width: 80%; */
+  width: 80vw;
+  /* background:conic-gradient(rgb(121, 239, 239),white,rgb(121, 239, 239),white,rgb(121, 239, 239),white); */
+  /* margin-left: 10vw; */
+}
+
+/* !---------------------main page-----------------------*/
+.mainpage {
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+  background-image: url("/src/images/im2.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainpage .container {
+  border: solid 1px black;
+  height: 40vh;
+  width: 50%;
+  box-shadow: inset 1px 2px 10px 5px grey; /* did on 10/09/2024 */
+}
+
+/*!------------------generate otp-------------*/
+.four-digit button,
+.six-digit button {
+  height: 20px;
+  width: 70px;
+  font-weight: bold;
+  background: transparent;
+  color: black;
+}
+.four-digit,
+.six-digit {
+  border: solid 1px black;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+/*!------------ change color project  10/09/2024 */
+.changecolor input {
+  height: 15vh;
+  width: 15vw;
+  cursor: grab;
+}
+.changecolor .container {
+  border: solid 2px black;
+  width: 30%;
+  margin: 20vh auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 10px black;
+  background: linear-gradient(white 40%, black);
+}
+
+/*!------------volume project  10/09/2024 */
+
+.volume .container {
+  margin: 20vh auto;
+  width: 20%;
+  padding: 10px;
+  border-radius: 20px;
+  background: black;
+  color: white;
+}
+.volume input {
+  -webkit-appearance: none;
+  border-radius: 10px;
+  background: rgb(5, 133, 193);
+}
+
+/*!-----Day Night mode 10/09/2024-------*/
+.daynight .container {
+  border: solid 1px black;
+  height: 10vh;
+  width: 20vw;
+  margin: 20vh auto;
+  background: white;
+  border-radius: 10vh;
+  overflow: hidden;
+}
+.daynight button {
+  border: none;
+  height: 10vh;
+  width: 10vw;
+  display: block;
+  transition: all 0.5s;
+  border-radius: 10vh;
+}
+.daynight .day {
+  margin-left: 0%;
+  box-shadow: 1px 1px 10px 15px gold;
+}
+.daynight .night {
+  margin-left: 50%;
+  box-shadow: 1px 1px 10px 15px black;
+}
+
+/*!------------Digital Clock-----------------*/
+.digitalclock .container {
+  height: 100px;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: inset 1px 1px 3px 10px grey;
+}
+
+/**/
+.calculator table {
+  width: 30%;
+}
+.calculator th,
+input {
+  height: 10vh;
+  width: 10vw;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 10px gray;
+  border-radius: 10px;
+}
+.calculator input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 10px;
+}
+
+
+/* assignment */
+/* Container for the entire todo list component */
+.todoList-container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+.todoList-header .todoList-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input and button container */
+.todoList-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.todoList-input {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Add button styling */
+.todoList-add-button {
+  width: 20%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todoList-add-button:hover {
+  background-color: #45a049;
+}
+
+/* List container */
+.todoList-list-container {
+  margin-top: 20px;
+}
+
+/* Unordered list styling */
+.todoList-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Individual list item styling */
+.todoList-item {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove button styling */
+.todoList-remove-button {
+  background-color: #ff4d4d;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todoList-remove-button:hover {
+  background-color: #e60000;
+}

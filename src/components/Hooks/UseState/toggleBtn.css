@@ -1,0 +1,18 @@
+.toggleBtn .on{
+    background: green;
+    color: white;
+}
+.toggleBtn .off{
+    background: red;
+    color:white;
+}
+
+.toggleBtn .day{
+    background-color: green;
+    color: white;
+}
+.toggleBtn .night{
+    background-color: red;
+    color:white;
+}
+

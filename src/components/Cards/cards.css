@@ -1,0 +1,41 @@
+.cards .header {
+  background: linear-gradient(yellowgreen, white);
+  font-size: 25px;
+  padding: 10px 0px;
+  font-weight: bold;
+  color: yellowgreen;
+  text-shadow: 1px 1px black;
+}
+.cards img {
+  height: 25vh;
+  width: 90%;
+
+}
+.cards .card {
+  background: linear-gradient(yellowgreen, white);
+  border: solid 1px black;
+  /* width: 80%; */
+  width: 25vw;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+
+  box-shadow: inset 1px 1px 10px 4px rgb(108, 104, 104);
+}
+/* 1rem=16px */
+.cards .container {
+  background-color: rgb(228, 220, 220);
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.cards .title {
+  font-size: 25px;
+  font-weight: bold;
+  color: yellowgreen;
+  text-shadow: inset 1px 1px black;
+}
+.cards .desc {
+  text-align: justify;
+  text-indent: 5vh;
+  padding: 0px 10px;
+}
